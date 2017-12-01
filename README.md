@@ -1,3 +1,3 @@
 # EncryptedChat
 
-A simple Server - Client program but the communication is crypted
+A simple src.Server - src.Client program but the communication is crypted

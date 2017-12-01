@@ -1,3 +1,5 @@
+package src;
+
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
@@ -130,7 +132,7 @@ public class Server implements Runnable {
 				System.out.println(TAB + "Décryptage du message : " + new String(msgCrypte, "UTF-16"));
 				Thread.sleep(1000);
 				if(str.equals("0")) break;
-				System.out.println(TAB + "Server: " + str);
+				System.out.println(TAB + str);
 				outT.println(str);
 			}
 			

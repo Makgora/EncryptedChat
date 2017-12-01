@@ -1,3 +1,5 @@
+package src;
+
 import java.net.InetAddress;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -18,7 +20,7 @@ public class Main {
 		System.out.println("");
 		
 		System.out.println("-Server launching-");
-		System.out.println("-Client creation-");
+		System.out.println("-toto" + "Client creation-");
 		System.out.println("");
 		Thread.sleep(1000);
 
